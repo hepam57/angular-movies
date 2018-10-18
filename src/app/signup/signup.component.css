@@ -1,0 +1,16 @@
+.form__row{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 0 0 10px 10px;
+}
+.form__row:first-child{
+  padding: 20px 0 10px 10px;
+}
+.form__row__input{
+  border-radius: 5px;
+}
+
+.form__row__input:hover{
+  background-color: rgba(0,0,0,0.05);
+}
